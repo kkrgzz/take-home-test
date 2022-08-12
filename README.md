@@ -12,7 +12,7 @@ project
 |   |   +-- _settings.scss
 |   |   +-- style.scss
 |   +-- js
-|   |   +-- main.js
+|       +-- main.js
 +-- main.html
 ```
 
