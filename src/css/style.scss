@@ -1,0 +1,36 @@
+@import "vanilla-framework", "_settings";
+@include vanilla;
+
+.p-card--highlighted{ 
+    display: flex !important;
+    flex-direction: column;
+
+    margin: 0 0 24px 0;
+    padding: 0;
+
+    .p-card__header{
+        padding: 16px 16px 8px 16px;
+        
+        border: 0;
+        border-radius: 2px;
+        border-top: 3px solid $main-border-colour;
+    }
+
+    .p-card__content{
+        height: 100%;
+        margin: 0 8px 0 8px;
+        padding: 16px 8px 8px 8px;
+    
+        border-top: 1px dotted $dotted-border-colour;
+    }
+
+    .p-card__footer{
+        margin: 0 8px 0 8px;
+        padding: 16px 8px 16px 8px;
+
+        font-size: 0.875rem;
+
+        border-top: 1px dotted $dotted-border-colour;
+    }
+    
+}
