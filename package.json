@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "sass": "^1.54.4",
+    "vanilla-framework": "^3.6.1"
+  },
+  "scripts": {
+    "build-css": "sass -w --load-path=node_modules src/css:dist --style=compressed",
+    "watch-css": "yarn build-css && sass --load-path=node_modules -w src/css:dist --style=compressed"
+  },
+  "author": "Kemal Karagöz"
+}
